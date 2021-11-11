@@ -28,7 +28,7 @@ def email(sub,content):
    notification = "Here is the SNS notification for Lambda function tutorial."
    client = boto3.client('sns')
    response = client.publish (
-      TargetArn = "arn:aws:sns:us-east-1:111222333444555:pravin-topic",
+      TargetArn = "arn:aws:sns:us-east-1:111222333444555:Test-topic",
       Message = content,
       Subject = sub
    )
