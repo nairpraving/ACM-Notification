@@ -1,0 +1,45 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "XXXXXXX",
+        "arn": "XXX",
+        "accountId": "11122233344",
+        "accessKeyId": "XXX",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "AROXXXXX2NKK",
+                "arn": "arn:aws:iam::111222333:role/admin",
+                "accountId": "11122233344",
+                "userName": "admin"
+            },
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2021-10-28T18:59:20Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2021-10-28T19:27:20Z",
+    "eventSource": "acm.amazonaws.com",
+    "eventName": "RequestCertificate",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "52.95.4.21",
+    "userAgent": "Coral/Netty4",
+    "requestParameters": {
+        "domainName": "test.cert.com",
+        "idempotencyToken": "ab8265671d967a7fad",
+        "certificateAuthorityArn": "arn:aws:acm-pca:us-east-1:XXXXX:certificate-authority/c0f6fbe3-8010-416a-8667-26f11645213d"
+    },
+    "responseElements": {
+        "certificateArn": "arn:aws:acm:us-east-1:XXXXXX:certificate/9f2ec52a-51dd-45a4-90d6-e9ec38def2aa"
+    },
+    "requestID": "df1a8925-e7c2-4c51-9019-816f381c09a3",
+    "eventID": "75723e0b-b77d-4506-8713-c1e51e7b3183",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "11122233344",
+    "eventCategory": "Management"
+}
